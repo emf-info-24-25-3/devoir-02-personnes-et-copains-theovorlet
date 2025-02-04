@@ -1,17 +1,18 @@
 package app;
 
-public class Application {
-    
-        //
-        //              )        (                 ) (           (         (
-        //           ( /(   *   ))\ )        (  ( /( )\ )        )\ )  (   )\ )
-        //     (   ( )\())` )  /(()/((       )\ )\()|()/(  (    (()/(  )\ (()/(
-        //     )\  )((_)\  ( )(_))(_))\    (((_|(_)\ /(_)) )\    /(_)|((_) /(_))
-        //    ((_)((_)((_)(_(_()|_))((_)   )\___ ((_|_))_ ((_)  (_)) )\___(_))
-        //    __   _____ _____ ___ ___    ___ ___  ___  ___   ___ ___ ___   _
-        //    \ \ / / _ \_   _| _ \ __|  / __/ _ \|   \| __| |_ _/ __|_ _| | |
-        //     \ V / (_) || | |   / _|  | (_| (_) | |) | _|   | | (__ | |  |_|
-        //      \_/ \___/ |_| |_|_\___|  \___\___/|___/|___| |___\___|___| (_)
-        //
+import app.Application;
+import models.Personne;
 
+import java.util.Scanner;
+
+public class Application {
+        public static void main(String[] args) {
+              Personne personne1 = new Personne("Cardoso", "Dylan");
+              Personne personne2 = new Personne("Nicolas","Louis");
+              Personne personne3 = new Personne("Vorlet","Justin");
+
+              System.out.println("Bonjour "+personne1);
+              System.out.println("Bonjour "+ personne2);
+              System.out.println("Bonjour "+personne3);
+        }
 }

@@ -1,17 +1,20 @@
 package models;
 
 public class Personne {
-    
-        //
-        //              )        (                 ) (           (         (
-        //           ( /(   *   ))\ )        (  ( /( )\ )        )\ )  (   )\ )
-        //     (   ( )\())` )  /(()/((       )\ )\()|()/(  (    (()/(  )\ (()/(
-        //     )\  )((_)\  ( )(_))(_))\    (((_|(_)\ /(_)) )\    /(_)|((_) /(_))
-        //    ((_)((_)((_)(_(_()|_))((_)   )\___ ((_|_))_ ((_)  (_)) )\___(_))
-        //    __   _____ _____ ___ ___    ___ ___  ___  ___   ___ ___ ___   _
-        //    \ \ / / _ \_   _| _ \ __|  / __/ _ \|   \| __| |_ _/ __|_ _| | |
-        //     \ V / (_) || | |   / _|  | (_| (_) | |) | _|   | | (__ | |  |_|
-        //      \_/ \___/ |_| |_|_\___|  \___\___/|___/|___| |___\___|___| (_)
-        //
+ private String nom;
+ private String prenom;
+ public Personne(String nom, String prenom){
+        this.nom=nom;
+        this.prenom=prenom;       
+ }
 
+ public String getNom(){
+        return nom;
+ }
+ public String getPrenom(){
+        return prenom;
+ }
+ public String toString(){
+        return prenom+" "+nom.toUpperCase();
+ }
 }
