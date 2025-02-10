@@ -10,7 +10,9 @@ public class Application {
               Personne personne1 = new Personne("Cardoso", "Dylan");
               Personne personne2 = new Personne("Nicolas","Louis");
               Personne personne3 = new Personne("Vorlet","Justin");
-
+            
+              personne1.addCopain(personne2);
+              personne1.addCopain(personne3);
               System.out.println("Bonjour "+personne1);
               System.out.println("Bonjour "+ personne2);
               System.out.println("Bonjour "+personne3);
