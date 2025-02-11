@@ -3,7 +3,6 @@ package app;
 import app.Application;
 import models.Personne;
 
-
 public class Application {
       public static void main(String[] args) {
             Personne personne1 = new Personne("Cardoso", "Dylan");
