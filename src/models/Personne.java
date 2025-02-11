@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Personne {
-       private static int MAX_COPAINS = 10;
+       private static final int MAX_COPAINS = 10;
        private List<Personne> copains;
        private String nom;
        private String prenom;
