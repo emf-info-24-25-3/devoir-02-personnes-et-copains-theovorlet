@@ -11,6 +11,7 @@ public class Application {
 
             personne1.addCopain(personne2);
             personne1.addCopain(personne3);
+            personne2.addCopain(personne3);
             System.out.println("Bonjour " + personne1);
             System.out.println("Bonjour " + personne2);
             System.out.println("Bonjour " + personne3);
